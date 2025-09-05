@@ -1,0 +1,64 @@
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.6em 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(220, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: hsl(220, 100%, 60%);
+}
+button:active {
+    background-color: hsl(220, 100%, 70%);
+}
+
+input {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 200px;  /* prevents it from being too wide */
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#diceResult {
+    margin: 20px;
+}
+
+#diceImages img {
+    width: 100%;
+    max-width: 120px; /* shrink nicely on mobile */
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* 📱 Mobile screens */
+@media (max-width: 600px) {
+    #container {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 0.5em 0.8em;
+    }
+    input {
+        font-size: 1.2rem;
+        max-width: 150px;
+    }
+    #diceImages img {
+        max-width: 90px;
+    }
+}

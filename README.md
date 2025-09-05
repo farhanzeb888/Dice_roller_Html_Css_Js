@@ -18,7 +18,8 @@ click this link('https://github.com/farhanzeb888/Dice_roller_Html_Css_Js/tree/my
 
 ---
 # webpage of dice_roller looks like this
-![Uploading Web capture_5-9-2025_163016_.jpeg…]()
+![Web capture_5-9-2025_163016_](https://github.com/user-attachments/assets/26f24488-bb02-47ae-91aa-6266094fdf63)
+
 
 
 

@@ -5,6 +5,7 @@ A simple and interactive **Dice Roller** application built with **HTML**, **CSS*
 ---
 
 ##  Repository Structure (on `my-new-branch`)
+click this link('https://github.com/farhanzeb888/Dice_roller_Html_Css_Js/tree/my-new-branch')
 
 ├── index.html # Main HTML structure for the dice roller UI
 ├── style.css # Styling for layout, dice visuals, and animations
